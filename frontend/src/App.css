@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Sora";
+}
+
+
+.app {
+    background-color: #1f1d2c;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #1f1d2c;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #272637;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: none;
+  }
+
+
+  .alert-modal::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+.alert-modal::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+.alert-modal::-webkit-scrollbar-thumb {
+  background: none;
+}
+
+/* Handle on hover */
+.alert-modal::-webkit-scrollbar-thumb:hover {
+  background: none;
+}
